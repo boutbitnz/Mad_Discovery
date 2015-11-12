@@ -133,3 +133,8 @@ Commit or stash everything you're working on, then checkout the branch you want 
 
 git fetch upstream master
 git merge -s recursive -X theirs upstream/master -m "Your commit message"
+
+
+
+
+#Refer to wiki for Collaborating Strategies
