@@ -1,4 +1,17 @@
-HELLO FELLOW GRADUATES
+#HELLO FELLOW GRADUATES
+
+###This repo is created for the purpose of collaberating with idea / examples of things we could build. Lets also ###take this moment to become more familiar with the Git process...
+
+1. Git pull from master to stay current
+2. Make new issue
+3. Create a new working branch
+4. Git branch --set-upstream-to=origin/master newBranch
+5. Do somethings
+6. Git pull origin master in branch if necessary
+7. Git push
+8. We will figure out something for merging. Any ideas?
+
+
 
 #If you do not have Git installed in your  machine already Follow these  steps:
 Also checkout for more info http://brew.sh/
@@ -133,3 +146,8 @@ Commit or stash everything you're working on, then checkout the branch you want 
 
 git fetch upstream master
 git merge -s recursive -X theirs upstream/master -m "Your commit message"
+
+
+
+
+
