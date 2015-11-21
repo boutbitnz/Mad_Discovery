@@ -1,1 +1,65 @@
 Ideas are coming soon!
+
+Team-
+
+A_
+I heard an interesting podcast with respect to the impact of technology on government that might provide some inspiration for Build Madison.  I follow Standford's Entreprenurial Thought Leaders podcast online 
+
+		(http://ecorner.stanford.edu/podcasts.html or via iTunes) 
+
+and listened to one recently that I thought was interesting:
+
+		http://ecorner.stanford.edu/authorMaterialInfo.html?mid=3426
+
+Given the title "Make Government Work Better for All", I was surprisingly inspired after listening.
+
+The City of Madison has an open data site: 
+
+		https://data.cityofmadison.com/
+
+that is unfortunately somewhat underwhelming.  There is a federal government data site as well: 
+		https://www.data.gov/ 
+
+with many of those being available via RESTful service calls.
+These are of course just one possible area of investigation.
+
+Scott…
+
+
+
+_This is a good idea. I think Scott is referring for us to redo the sites.. We could do this easily._
+	      
+		
+
+		******************************************************
+
+
+
+B_
+Another idea is to build something with the Arduino we had experimented with at Secter67.
+here is the web site with an image of the board we would be working with and a lot of info. Good idea also to download the software for experimenting. You will need to in order to operate the code.
+
+				https://www.arduino.cc/
+I was thinking maybe building something on top of it and making it do something. There are tons of legos that we could possibly use or other material.
+
+		https://s-media-cache-ak0.pinimg.com/736x/4e/bb/
+		    b7/4ebbb7b43df3041e1edf69a805679adc.jpg
+
+Something like that and program it to operate. There are plenty of other things we cold build out of the legos or whatever is there.
+
+
+		******************************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
