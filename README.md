@@ -2,24 +2,37 @@
 
 ###This repo is created for the purpose of collaberating with idea / examples of things we could build. Lets also take this moment to become more familiar with the Git process...
 
+```markdown
 1. Git pull from master to stay current
+
 2. Make new issue
+
 3. Create a new working branch
-4. Git branch --set-upstream-to=origin/master newBranch
+
+4. Git branch --set-upstream-to=origin/
+master newBranch
+
 5. Do somethings
+
 6. Git pull origin master in branch if necessary
+
 7. Git push
-8. We will figure out something for merging. Any ideas?
+
+8. We will figure out something for merging. Any ideas? 
+```
 
 
 
 ###If you do not have Git installed in your  machine already Follow these  steps:
+
 Also checkout for more info http://brew.sh/
 
 ####Table of Contents:
+```markdown
 1. Installation
-2. Your First Pull Request (and all future submissions)
 
+2. Your First Pull Request (and all future submissions)
+```
 
 
 ###Installation
@@ -27,83 +40,110 @@ Also checkout for more info http://brew.sh/
 Homebrew is a command-line package manager for OS X, which means it is a tool that helps you find, install, and update other tools that were not installed on your system when it came out of the factory. (Go here if you'd like to learn more about Homebrew.)
 
 Copy and paste this into the terminal:
+```markdown
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
 Type this to verify your installation:
+```markdown
 brew -v
+```
 You should get something like this:
+```markdown
 Homebrew 0.9.5
-
+```
 ###Install and Configure Git and GitHub
 ####Install Git
 Git is the most popular versioning and source control software currently in use. It allows you to keep past working versions of your code safe from experimentation, and it allows multiple developers to work on the same code base without interfering with each other.
 
 See if you have Git installed by typing
+```markdown
 git --version
+```
 If you get something like
+```markdown
 git version 2.x.x
+```
 go on to the next step. Otherwise, use Homebrew to install Git with
+```markdown
 brew install git
+```
 Now check your version again to verify your install.
 
 ####Configure Git
 If you already have a GitHub account for whatever reason, be absolutely certain which email address it uses, because you must use the same email address here. Either way, remember the email you use.
 Type the following, substituting your actual name and email address. You must use the quotation marks if spaces are involved.
-
+```markdown
 git config --global user.name "Your Actual Name"
+
 git config --global user.email "Your Actual Email"
+
 You can check your configuration by typing
 git config --list
+
 If you like, you can make your Git output colorful with
+
 git config --global color.ui auto
+```
 
 ####Generate an SSH Key
 If you already have an SSH key for some reason, check by typing
+```markdown
 ls ~/.ssh/id_rsa
 and you'll see something like
 /Users/YourName/.ssh/id_rsa
-
+```
 which means you're done with this step (move on to the GitHub section). If you get a No such file or directory message, you'll have to generate a new key.
 Again, be absolutely certain you use the same email address for configuring Git, and type the following, substituting your actual email address:
-
+```markdown
 ssh-keygen -C student@example.com -t rsa
-
+```
 Press enter to accept the default key save location.
 
 Hit enter to accept blank passphrase, then hit enter again.
 
 You should get some output like this:
-
+```markdown
 Generating public/private rsa key pair.
-Enter file in which to save the key (/Users/student/.ssh/id_rsa):
+Enter file in which to save the key 
+
+(/Users/student/.ssh/id_rsa):
+
 Created directory '/Users/student/.ssh'.
+
 Enter passphrase (empty for no passphrase):
+
 Enter same passphrase again:
 
 Your identification has been saved in /Users/student/.ssh/id_rsa.
+
 Your public key has been saved in /Users/student/.ssh/id_rsa.pub.
+
 The key fingerprint is:
 
 88:54:ab:77:fe:5c:c3:7s:14:37:28:8c:1d:ef:2a:8d student@example.com
 
 Finally, we'll add the key to the authentication agent with
-
+```markdown
 ssh-add ~/.ssh/id_rsa
-
+```
 You should get some output like this:
-
+```markdown
 Enter passphrase for /Users/student/.ssh/id_rsa:
-Identity added: /Users/student/.ssh/id_rsa (/Users/student/.ssh/id_rsa)"
 
+Identity added: /Users/student/.ssh/id_rsa (/Users/student/.ssh/id_rsa)"
+```
 
 ####GitHub
 Originally Git was invented to help developers work on the Linux kernel, and code was distributed peer-to-peer. It was so loved that GitHub was created: a web-based Git repository hosting service that added many new features such as visualization tools, social networking, wikis, and more.
 
-If you don't already have a GitHub account, go to http://github.com and register for one. Remember to use that same email address!
+If you don't already have a GitHub account, 
+go to http://github.com and register for one. 
+Remember to use that same email address!
 
 To add your SSH key to your GitHub account, first copy it to the clipboard with
-
+```markdown
 pbcopy < ~/.ssh/id_rsa.pub
-
+```
 Navigate to http://github.com and make sure you are logged in. Click the black gear icon in the top right corner. This will take you to the account settings page.
 
 
@@ -122,33 +162,38 @@ JavaScript (even though JS was ostensibly developed for front-end scripts). Node
 to console.log() print to the terminal).
 
 Use Homebrew to install Node with
-
+```markdown
 brew install node
-
+```
 Verify your installation with
+```markdown
 node --version
-
+```
 You should expect some output like this:
+```markdown
 v0.10.35
-
+```
 You can play around with Node REPL by typing
+```markdown
 node
-
-It will give you a prompt (>) that you can use like a JS console. Quit the REPL by pressing ^c(Control+C) twice.
+```
+It will give you a prompt (>) that you can use like a JS console. Quit the REPL by
+pressing ^c(Control+C) twice.
 
 
 ####Install Dependencies
 Type this into the terminal:
-
+```markdown
 npm install
+```
 npm is short for Node Package Manager, another package management tool that searches, installs, and updates modules just for Node.js. npm install reads the package.json file in the repo and installs all the things the package file says it needs. In addition to Bower and Grunt, useful build tools, it installs FactoryB, a tool that helps you generate dummy data to test on (elsewhere known as "fixtures").
 
 
 ####Keep Updated
 Commit or stash everything you're working on, then checkout the branch you want to update.
-
+```markdown
 git fetch upstream master
-
+```
 
 
 
