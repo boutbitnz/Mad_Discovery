@@ -1,0 +1,33 @@
+body{
+
+}
+
+.mainPg {
+	background-color: grey;
+	border:1px solid;
+    width: 1050px;
+    height: 650px;
+}
+.imageDecoy {
+	border: 1px solid;
+    width: 795px;
+    height: 115px;
+    margin: 20px 130px;
+}
+.controllerInput {
+	border: 1px solid;
+    width: 460px;
+    height: 270px;
+    margin: 135px 300px;
+}
+
+.controllerInput svg {
+	/*position: absolute;*/
+	margin: auto;
+	
+}
+
+.arrowUp {left:;}
+.arrowDown {left:;}
+.arrowLeft {}
+.arrowRight {}
