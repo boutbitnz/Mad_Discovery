@@ -117,11 +117,11 @@ Enter same passphrase again:
 Your identification has been saved in /Users/student/.ssh/id_rsa.
 
 Your public key has been saved in /Users/student/.ssh/id_rsa.pub.
-
+```
 The key fingerprint is:
-
+```markdown
 88:54:ab:77:fe:5c:c3:7s:14:37:28:8c:1d:ef:2a:8d student@example.com
-
+```
 Finally, we'll add the key to the authentication agent with
 ```markdown
 ssh-add ~/.ssh/id_rsa
